@@ -9,3 +9,9 @@ def subtract(a: float, b: float) -> float:
 def multiply(a: float, b: float) -> float:
     """Multiplies two numbers. Added by Agent 1."""
     return a * b
+
+def divide(a: float, b: float) -> float:
+    """Divides a by b. Added by Agent 2."""
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
