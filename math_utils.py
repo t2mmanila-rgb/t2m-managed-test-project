@@ -15,3 +15,7 @@ def divide(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+def power(base: float, exp: float) -> float:
+    """Calculates base raised to exp. Added by Agent 3."""
+    return base ** exp
